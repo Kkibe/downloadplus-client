@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
+
 
 function Contact() {
+  const [error, setError] = useState(true);
   return (
     <div className='contact'>
           <h1>CONTACT US &nbsp;</h1>
@@ -14,10 +16,10 @@ function Contact() {
                     <input type="text" placeholder='Subject'/>
                 </div>
                 <div>
-                    <textarea placeholder="Message" rows='10'></textarea>
+                    <textarea placeholder="Message" rows='5'></textarea>
                 </div>
                 <button>SUBMIT</button>
-                <div className="error">Error Submitting Your Form</div>
+                {error && <div className="error">Error Submitting Your Form</div>}
             </form>
     </div>
   )

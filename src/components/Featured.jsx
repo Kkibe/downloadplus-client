@@ -1,4 +1,4 @@
-import { DownloadDoneOutlined,FindInPage, HighQualityOutlined, MoneyOffOutlined} from '@mui/icons-material';
+import { AllInclusive, DownloadDoneOutlined,FindInPage, HighQualityOutlined, MoneyOffOutlined} from '@mui/icons-material';
 import React from 'react';
 
 const Featured = () => {
@@ -18,8 +18,8 @@ const Featured = () => {
                 <h2>High Quality</h2>
             </div>
             <div className="item">
-                <h1><FindInPage/></h1>
-                <h2>Search For Videos</h2>
+                <h1><AllInclusive/></h1>
+                <h2>All Sources</h2>
             </div>
             <div className="item">
                 <h1><MoneyOffOutlined /></h1>

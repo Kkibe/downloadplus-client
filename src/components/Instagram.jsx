@@ -16,16 +16,15 @@ export default function Instagram() {
   return (
     <form onSubmit={handleSubmit}>
         <h1>Instagram Downloader</h1>
-        <div className="url-input">
+        <div >
             <h2 >Copy And Paste Video Url:</h2>
-            <input type="text" className="url-input" placeholder="https://" autoFocus ref={urlRef}/>
+            <input type="text" placeholder="https://" autoFocus ref={urlRef}/>
             <div className="field">
                 <input type="hidden" ref={hiddenInput}/>
-                <div className="bottom-line"/>
             </div>
         </div>
         <div className="preview-area" ref={previewArea}>
-            <img src="" alt="thumbnail" ref={imgTag}/>
+            <img src="" ref={imgTag} alt='instagram downloder'/>
             <i className="icon fas fa-cloud-download-alt"/>
             <span>Paste video url to see preview</span>
         </div>

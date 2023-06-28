@@ -5,7 +5,7 @@ function About() {
     <div className='about'>
       <section>
             <h1>About Us</h1>
-            <iframe  width="560" height="315"  src="https://www.youtube.com/embed/c1xTDSIXit8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, placeat dolorum fugit error temporibus perferendis deleniti. Obcaecati, quasi itaque a sapiente doloribus illum aperiam ducimus laboriosam error, animi eveniet quod.</p>
       </section>
       <ul className="accordion" id='faq'>
         <h2>Frequently Asked Questions</h2>

@@ -13,6 +13,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
 ### preveiew
-![preview-image](./Screenshot%202023-02-10%207.34.01%20PM.png)
+![preview-image](./src/assets/screenshot_main.png)
 
 # ql-downloader

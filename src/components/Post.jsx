@@ -5,7 +5,7 @@ const Post = ({post}) => {
     return (
         <a href={post.url} className='post' target='_blank'>
             <div className="image-container">
-                <img src={post.urlToImage} alt="" />
+                <img src={post.urlToImage} alt="blog post image" />
             </div>
             <h3>{post.title}</h3>
             <div className="content">

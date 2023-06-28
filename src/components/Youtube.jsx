@@ -40,17 +40,16 @@ export default function Youtube() {
   
   return (
     <form onSubmit={handleSubmit}>
-        <h1>Download Thumbnail</h1>
-        <div className="url-input">
+        <h1>Youtube Downloader</h1>
+        <div >
             <h2 >Copy And Paste Video Url:</h2>
-            <input type="text" className="url-input" placeholder="https://" autoFocus ref={urlRef}/>
+            <input type="text"  placeholder="https://" autoFocus ref={urlRef}/>
             <div className="field">
                 <input type="hidden" ref={hiddenInput}/>
-                <div className="bottom-line"/>
             </div>
         </div>
         <div className="preview-area" ref={previewArea}>
-            <img src="" alt="thumbnail" ref={imgTag}/>
+            <img src="" alt="youtube thumbnail" ref={imgTag}/>
             <i className="icon fas fa-cloud-download-alt"/>
             <span>Paste video url to see preview</span>
         </div>

@@ -4,7 +4,6 @@ import React from 'react';
 export default function Topbar() {
   return (
     <div className='topbar'>
-      <a href="mailto:support@ql.com" title="email us">support@ql.com</a>
       <div className="wrapper">
         <a href="https://facebook.com" className='facebook' target='_blank' title='facebook'><Facebook /></a>
         <a href="https://twitter.com" className='twitter' target='_blank' title='twitter'><Twitter /></a>
